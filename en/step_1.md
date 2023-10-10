@@ -1,59 +1,38 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project, you will create and style a webpage for an anime drawing tutorial. 
 
-### What you will make
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Hypertext Markup Language (HTML)**</span> is used to structure a webpage. <span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> describes exactly how a webpage should look. Without CSS, a webpage would look really boring.
+</p>
+
+You will:
++ Use **HTML** tags to structure a webpage
++ Use **CSS** styles to apply layouts, colour palettes, and fonts to your webpage
++ Add images and text content to your webpage
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">**web designer**</span> is someone who plans and designs webpages. There are hundreds of millions of active webpages, so if you use HTML with CSS, it can help your webpage attract people's attention. 
+</p>
+
+**Tip:** Drag the scroll bar down to see the full webpage. 
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+--- task ---
+### Try it
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+Explore the anime expressions webpage. Can you spot things on this webpage that you have seen on other webpages?
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+
+--- /task ---
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Completed project](images/solution.PNG)
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+![](http://code.org/api/hour/begin_coderdojo_anime.png)
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---

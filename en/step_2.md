@@ -9,7 +9,7 @@ In this step, you will add a header and an introduction to your anime webpage.
 </div>
 </div>
 
-In HTML you can type words directly into the code to make the words appear, unformatted, on the webpage.
+In HTML you can type words directly to appear on the webpage.
 
 --- task ---
 
@@ -34,8 +34,6 @@ Click on the small triangle next to line 3 to collapse the `<head>`.
 Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**. 
 
 --- task ---
-
-You can use comments to organise your code and help people to understand the code. Comments are ignored by the web browser. 
 
 **Find** the comment `<!-- The page header code goes here -->`.
 
@@ -115,9 +113,13 @@ line_highlights: 30
 
 --- task ---
 
-**Test:** Some basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
+**Test:** Click the **Run** button. 
 
-![alt=""](images/heading-test.png)
+The output will appear on the right:
+
+![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png) 
+
+You will see that basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
 
 --- /task ---
 
@@ -197,6 +199,12 @@ line_highlights: 36
 
 --- /code ---
 
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. 
+
 Notice how the text on your webpage is slightly smaller than the big heading above and has bold styling. This is because `<h2>` is a smaller heading than `<h1>`.
 
 --- /task ---
@@ -259,13 +267,13 @@ line_highlights: 37
 
 --- task ---
 
-**Test:** You can now see that the text appears under the subheading and uses the default paragraph styling. 
+**Test:** Click the **Run** button. 
+
+The text appears under the subheading and uses the default paragraph styling. 
 
 Well done! Your page now has a header, a subheading, and an introductory paragraph. 
 
 ![alt=""](images/step2-output.PNG)
-
-
 
 --- /task ---
 
@@ -276,10 +284,10 @@ Your project is saved automatically. Return to the starter link in the same web 
 --- collapse ---
 
 ---
-title: I accidentally closed my web project
+title: I accidentally closed my project
 ---
 
-Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}. link to open your project. Use the same web browser to see your changes.
+Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
 
 --- /collapse ---
 
@@ -289,6 +297,6 @@ Click on the [starter project](https://staging-editor.raspberrypi.org/en/project
 title: If you have a Code Editor account
 ---
 
-Click the 'Remix' button to create a copy of the project in your Raspberry Pi account. This means you can save a copy of the project.
+Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
 
 --- /collapse ---

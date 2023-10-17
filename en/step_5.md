@@ -53,7 +53,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top">
 
 --- /code ---
@@ -74,7 +74,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-  <!-- Webpage footer -->
+    <!-- Webpage footer -->
     <footer class="border-top secondary">
 
 --- /code ---
@@ -166,11 +166,11 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 40
 ---
-   <!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
 
 --- /code ---
 
@@ -190,11 +190,11 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 41
 ---
-<!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img class="dashed-border" src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img class="dashed-border" src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
 
 --- /code ---
 
@@ -214,11 +214,11 @@ line_numbers: true
 line_number_start: 39
 line_highlights: 41
 ---
-<!-- The first drawing and instructions go here -->
-<section class="wrap">
-  <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
-  <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-</section>
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
 
 --- /code ---
 
@@ -226,7 +226,9 @@ line_highlights: 41
 
 --- task ---
 
-**Test:** Drag the bar between the text editor and your webpage to make the webpage narrower. 
+**Test:** Click the **Run** button. 
+
+Drag the bar between the text editor and your webpage to make the webpage narrower. 
 
 The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
 

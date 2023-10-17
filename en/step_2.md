@@ -62,18 +62,11 @@ Underneath the comment, find the `<header>` and `</header>` tags. Everything you
 
 --- /task ---
 
-A `<h1>` tag is used to say that this content is the largest header on the page. 
-
 --- task ---
 
 Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
-**Tip:** 
-HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
-
-A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`. 
-
-When you add a start tag, the end tag is automatically added so you don't need to type it.
+A `<h1>` tag is used to say that this content is the largest header on the page. 
 
 --- code ---
 ---
@@ -91,7 +84,21 @@ line_highlights: 30
 
 --- /code ---
 
-**Tip:** It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.  
+--- collapse ---
+
+---
+title: Tips about elements and tags
+---
+
+HTML documents contain **elements** including paragraphs, headings, and images. An element is typically made up of a starting tag, some content, and a closing tag.
+
+A **tag** lets the browser know what kind of element it is. Tags start and end with angle brackets `<>`. The end tag also has a `/`. 
+
+When you add a start tag, the end tag is automatically added so you don't need to type it.
+
+It's a good idea to add spaces at the beginning of lines to indent your code. In HTML, you don’t need to add in the indents for the code to work, but it does make your code easier to read.  
+
+--- /collapse ---
 
 --- /task ---
 

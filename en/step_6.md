@@ -1,224 +1,170 @@
-## Style with classes
+## Style your page
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to add classes to customise the styles on your page. 
+You have used HTML to add tags to your webpage. 
 
+Now it is time to use CSS to add styles to your page. 
+
+This step shows you how to change the colours, fonts, and layout on your webpage.   
+  
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
-
-If you want to apply styling to specific elements, you can create a **class** in a CSS file. You can then add a `class=` **attribute** to an element in your HTML code to let the browser know what styling should be applied. 
-  
-The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
-
---- task ---
-
-Your CSS file has a custom CSS class called `border-bottom`. This class adds a thick, solid-coloured line border to the bottom of any HTML element that uses it.
-
-Go to your `index.html` file and find your `header`. 
-
-Add `class="border-bottom"` after the word `header` in your `header` tag. 
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 27
-line_highlights: 29
----
-  <body>
-    <!-- The page header code goes here -->
-    <header class="border-bottom">
-      <h1>Draw anime with me</h1>
-    </header>
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add the `border-top` class to your `footer` code to apply a thick border to the top of your footer. 
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 55
-line_highlights: 56
----
-    <!-- Webpage footer -->
-    <footer class="border-top">
-
---- /code ---
-
---- /task ---
-
-The `primary` class sets a contrasting background and text colour for most of the main content. The `secondary` and `tertiary` classes set additional colour combinations that look good with the colours in the `primary` class.
-
---- task ---
-
-Add the `secondary` class to your `footer` code to apply a different colour background to your footer. 
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 55
-line_highlights: 56
----
-    <!-- Webpage footer -->
-    <footer class="border-top secondary">
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add `class="primary"` to `<main>`.
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 33
-line_highlights: 34
----
-    <!-- The main content for the webpage goes between the main tags -->
-    <main class="primary">
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add `secondary` to `<header>`.
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 28
-line_highlights: 29
----
-    <!-- The page header code goes here -->
-    <header class="border-bottom secondary">
-
---- /code ---
-
---- /task ---
-
-The `xcenter` class in your CSS file aligns items horizontally across the page. 
-
---- task ---
-
-Add `class="tertiary"` to the **first** `<section>` element.
-
-Also, add `class="xcenter"` to the `<p>` in the same section. 
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 33
-line_highlights: 35, 37
----
-    <!-- The main content for the webpage goes between the main tags -->
-    <main class="primary">
-      <section class="tertiary">
-        <h2>Facial expressions</h2>
-        <p class="xcenter">Take a look at these facial expressions and try them in your own drawings.</p>
-      </section>
-
---- /code ---
-
---- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
 </p>
 
-CSS can change the layout on a webpage, as well being used to change colours, fonts, and borders. 
+Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
+
+The **selector** is the part of HTML that you want to style. In this example it is `h1`. 
+
+<div style="background-color:#2d2d2d; padding: 1em;">
+  <pre><span style="color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+  ><span style=" color:#ccc;  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  color: blue;
+  font-size: 12px;
+}</span></pre>
+</div>
+<br/>
+
+The **declaration** is in curly brackets `{}`. It gives instructions of the styles that should be used. 
+
+<div style="background-color:#2d2d2d; padding: 1em;">
+<pre><span style="color:#ccc; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">h1 </span
+><span style=" color:#000; background-color:#d2d2d2; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 1em">{
+  color: blue;
+  font-size: 12px;
+}</span></pre>
+</div>
+<br/>
+
+### Link the CSS file
+
+The starter project includes CSS files, which contain a set of useful rules. 
 
 --- task ---
 
-Find the **second** `<section>`. 
+Unfold the `<head>` section of your code so that you can view the code inside it.
 
-Add `class="wrap"` to the `<section>` tag.
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 39
-line_highlights: 40
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap">
-      <img src="love.png" alt="The love facial expression.">
-      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-    </section>
-
---- /code ---
+![The mouse clicks on the little triangle next to the line 3 number to collapse the head code.](images/step_2_collapse.gif)
 
 --- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border. 
-
 --- task ---
 
-Add the `dashed-border` class to the `<img>`. 
+At the bottom of your `<head></head>` section, there are links to two CSS style sheets that are currently commented out so that they are ignored by the web browser. 
+
+Remove the `<!--` and `-->` arrows from the start and end of both lines of link code:
+
+**Before**
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 39
-line_highlights: 41
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap">
-      <img class="dashed-border" src="love.png" alt="The love facial expression.">
-      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-    </section>
+line_number_start: 21
+line_highlights: 23-24
+---   
+    <!-- Include CSS style file -->
+
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="candy.css" rel="stylesheet" type="text/css" /> -->
+  </head>
 
 --- /code ---
 
---- /task ---
-
-You can make the corners of an element rounded with the `rounded` class. 
-
---- task ---
-
-Add the `rounded` class to the `<img>`. 
+**After**
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 39
-line_highlights: 41
+line_number_start: 21
+line_highlights: 23-24
+---   
+    <!-- Include CSS style file -->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="candy.css" rel="stylesheet" type="text/css" />
+  </head>
+
+--- /code ---
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. 
+
+HTML elements have default browser styles that you have seen as you have written your HTML code. 
+
+Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed. 
+
+**Tip:** To collapse the `<head>` section after you have seen the change, click the arrow next to it. 
+
+--- /task ---
+
+--- task ---
+
+Click on the `Project files` icon in the Code Editor then select the `style.css` file top open in in a new tab.
+
+![The Code Editor with the Project files icon highlighted](images/select-file.png)
+
+![The Code Editor with the style.css file highlighted](images/select-style.png)
+
+This CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+
+When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag. 
+
+**Find:** Scroll down and find the rule that controls the style of the `<h2>`. 
+
+--- code ---
 ---
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap">
-      <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
-      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-    </section>
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 109
+line_highlights: 109-113
+---  
+
+h2 {
+  font: var(--title-font); /* Font style stored in the title-font variable */
+  text-align: left; /* Align the text */
+  padding: 1.5rem; /* Add some space all around the heading */
+}
+
+--- /code ---
+
+This rule states which font should be used, how the text should be aligned, and how much space should be around the header. 
+
+--- /task ---
+
+--- task ---
+
+At the moment, the `<h2>` heading is aligned to the left.
+
+Change the `text-align` property of the `h2` rule to `center`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 109
+line_highlights: 111
+---  
+
+h2 {
+  font: var(--title-font); /* Font style stored in the title-font variable */
+  text-align: center; /* Align the text */
+  padding: 1.5rem; /* Add some space all around the heading */
+}
 
 --- /code ---
 
@@ -228,12 +174,11 @@ line_highlights: 41
 
 **Test:** Click the **Run** button. 
 
-Drag the bar between the text editor and your webpage to make the webpage narrower. 
+Look at your webpage and make sure the 'Facial expressions' text is centred. 
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
+**Debug:** Check the spelling of the word `center`. HTML uses American (US) English spelling. 
 
-Drag the bar back after you test it, so you can see the image and text side-by-side. 
-
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-4" width="350" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
+

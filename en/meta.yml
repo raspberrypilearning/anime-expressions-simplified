@@ -15,6 +15,7 @@ steps:
   - title: Add a facial expression
     completion: engaged
   - title: Style your page
+  - title: Edit your style sheet
   - title: Style with classes
   - title: Colours and fonts
     completion: internal

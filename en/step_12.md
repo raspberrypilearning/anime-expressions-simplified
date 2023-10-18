@@ -1,27 +1,55 @@
-## What next?
+## Upgrade your project
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Top five emojis](https://projects.raspberrypi.org/en/projects/top-5-emoji-list) project. In this project, make a list of your favourite five emojis, with use of animation effects.
-
---- print-only ---
-
-![The finished top 5 emojis project.](images/emoji-solution.PNG)
-
---- /print-only ---
-
---- no-print ---
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+If you have time, you can add more steps to the tutorial and customise the style to your preferences. 
+</div>
+</div>
 
 --- task ---
 
-### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this webpage. How often do they repeat? Can you spot a list, quote, and link?
+At the moment your tutorial only has one step! The starter project includes images for additional steps. 
+
+There are images called `happy.png` and `annoyed.png`. 
+
+You can use these descriptions or write your own:
+
++ **Happy**: 'A happy expression in anime uses two thick curved lines for the eyes and a wide mouth to create a happy, laughing face.'
++ **Annoyed**: 'An annoyed facial expression can be made by pointing the eyebrows down towards the centre. The eyes use a thick line with a semicircle underneath. The mouth is slightly curved.'
+
+Create a new `<section>` for each new tutorial step. Look at the section you have already created to remind yourself of the HTML tags and CSS classes you need to use.     
+
+<div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-8" width="400" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 </div>
-<div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/top-5-emoji-list" width="500" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
+
 --- /task ---
 
---- /no-print ---
+--- task ---
+
+You can also change:
+
++ The colour palette to `default` or `candy`. 
+
++ The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use. 
+
++ Your webpage to use colour names, such as 'teal' and 'coral'.
+
++ The size of the fonts used. `1rem` is the normal font size. `3rem` is three times as big. 
+
++ The border. Try different border effects in the `dashed-border` style or switch to the `solid-border` class. 
+
+--- /task ---
+
+--- collapse ---
+
+---
+title: Completed project
+---
+
+You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-complete){:target="_blank"}.
+
+--- /collapse ---
+
+--- save ---

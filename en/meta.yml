@@ -11,12 +11,13 @@ steps:
   - title: Introduction
   - title: Start your webpage
   - title: Add content to your webpage
-  - title: Add more content to your first section
+  - title: Add content to your first section
   - title: Add a facial expression
     completion: engaged
   - title: Style your page
   - title: Edit your style sheet
   - title: Style with classes
+  - title: Make your page responsive
   - title: Colours and fonts
     completion: internal
   - title: Reflection

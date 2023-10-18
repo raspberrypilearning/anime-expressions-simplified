@@ -1,147 +1,84 @@
-## Colours and fonts
+## Make your page responsive
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+CSS can be used to make your webpage responsive when viewed on different devices.
 
-In this step, you can try out different colour palette and font choices.
+--- collapse ---
 
-</div>
-<div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
+---
+title: What does responsive mean?
+---
 
-Now that you have started to add custom classes to your code, you may have noticed that colour has been added to the page. In CSS, you can use **variables** to create a colour palette for your webpage. 
+Webpages can be viewed on many different devices and should be **responsive** to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
 
-CSS variables start with two dashes: `--primary`. 
-
-Colours are specified using hexadecimal notation (hex) and begin with '#'. There are lots of websites where you can find hex colours to use. 
+--- /collapse ---
 
 --- task ---
 
-Go to your `candy.css` file. This file sets the colour variables for the candy colour palette.
+Find the **second** `<section>`. 
 
-In the candy colour palette, the `--primary` variable is set to `#ebeaeb`, a pale grey.
-
---- code ---
----
-language: CSS
-filename: candy.css
-line_numbers: true
-line_number_start: 1
-line_highlights: 4
----
-/* Candy colour palette and fonts */
-
-:root {
-  --primary: #ebeaeb;
-  --onprimary: #625d61;
-  --secondary: #f5bdd5;
-  --onsecondary: #1d3d58;
-  --tertiary: #b5a9b2;
-  --ontertiary: #422215;
-  --page: #ffffff;
-  --onpage: #000000;
-  --detail: #e697b9;
-  --detail2: #415a89;
-
---- /code ---
-
-**Tip:** CSS uses different comment markers to HTML. Multiline comments start with `/*` and end with `*/`. The browser ignores code that is inside the comment markers. 
-
-`/* Candy colour palette and fonts */` is an example of a CSS comment.
-
---- /task ---
-
-You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredoka One', cursive;`
-
-`3rem` means that this font should be three times the normal font size. 
-
-`'Fredoka One', cursive` means that the browser should use the 'Fredoka One' font if it can. If this font isn't available, the browser should use the **fallback font**, which is `cursive`. 
-
-[[[web-fonts]]]
-
---- task ---
-
-**Find** the variables that set the fonts for your webpage.
-
---- code ---
----
-language: CSS
-filename: candy.css
-line_numbers: true
-line_number_start: 15
-line_highlights: 15-18
----
-
-  --body-font: 1rem 'Verdana', sans-serif;
-  --header-font: 3rem 'Fredoka One', cursive;
-  --title-font: 2rem 'Fredoka One', cursive;
-  --quote-font: lighter 1.5rem 'Chewy', cursive;
-}
-
---- /code ---
-
---- /task ---
-
-The `primary` colours are designed to be used the most in the main content of the page, followed by the `secondary` and then `tertiary` colours. This means that you can easily design new colour palettes and switch between them. 
-
-The starter project also includes a vivid colour palette file called `vivid.css`. 
-
---- task ---
-
-**Find** the `vivid.css` file. 
-
-Notice that the colour and font variables have the same names as in the `candy.css` file, but the colours and fonts used are different in this colour palette.
-
---- code ---
----
-language: CSS
-filename: vivid.css
-line_numbers: true
-line_number_start: 1
----
-
-/* Vivid colour palette and fonts */
-
-:root {
-  --primary: #68bbe5;
-  --onprimary: #000000;
-  --secondary: #e2008a;
-  --onsecondary: #000000;
-  --tertiary: #fdf100;
-  --ontertiary: #000000;
-  --page: #ffffff;
-  --onpage: #000000;
-  --detail: #ffa71a;
-  --detail2: #41063c;
-
-  --body-font: 1rem Verdana, sans-serif;
-  --header-font: lighter 3rem "Bangers", cursive;
-  --title-font: lighter 2rem "Bangers", cursive;
-  --quote-font: lighter 1.5rem 'Chewy', cursive;
-} 
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Go to `index.html` and change the CSS link code to link to the `vivid.css` file: 
+Add `class="wrap"` to the `<section>` tag.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 21
-line_highlights: 24
----   
-    <!-- Include CSS style file -->
+line_number_start: 39
+line_highlights: 40
+---
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="vivid.css" rel="stylesheet" type="text/css" />
+--- /code ---
+
+--- /task ---
+
+You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border. 
+
+--- task ---
+
+Add the `dashed-border` class to the `<img>`. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img class="dashed-border" src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
+
+--- /code ---
+
+--- /task ---
+
+You can make the corners of an element rounded with the `rounded` class. 
+
+--- task ---
+
+Add the `rounded` class to the `<img>`. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 39
+line_highlights: 41
+---
+    <!-- The first drawing and instructions go here -->
+    <section class="wrap">
+      <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
+      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
+    </section>
 
 --- /code ---
 
@@ -151,8 +88,12 @@ line_highlights: 24
 
 **Test:** Click the **Run** button. 
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Drag the bar between the text editor and your webpage to make the webpage narrower. 
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-6" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
+
+Drag the bar back after you test it, so you can see the image and text side-by-side. 
+
+![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
 
 --- /task ---

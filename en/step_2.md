@@ -12,7 +12,7 @@ In HTML you can type words directly to appear on the webpage.
 
 --- task ---
 
-Open the [Anime expressions starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"}.
+Open the [Anime expressions starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter-simplified){:target="_blank"}.
 
 --- collapse ---
 

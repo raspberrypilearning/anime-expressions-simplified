@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header and an introduction to your anime webpage.
+In this step, you will add a header to your anime webpage.
 In HTML you can type words directly to appear on the webpage.
 </div>
 <div>

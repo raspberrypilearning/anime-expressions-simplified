@@ -1,9 +1,9 @@
-## Start your webpage
+## Start your web page
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step, you will add a header to your anime webpage.
-In HTML you can type words directly to appear on the webpage.
+
 </div>
 <div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-2-simplified" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -24,17 +24,20 @@ Your starter project contains some HTML that you will learn more about throughou
 
 To make your code easier to read, you can collapse the parts of it that you don't need right now. 
 
-Click on the small triangle next to line 3 to collapse the `<head>`.
-
-![alt=""](images/step_2_collapse.gif)
-
-
 --- /collapse ---
 
 --- /task ---
 
+--- task ---
 
-### Add a header 
+Click on the small triangle next to line 3 to collapse the `<head>`.
+
+![alt=""](images/step_2_collapse.gif)
+
+--- /task ---
+
+
+### Add a heading
 
 Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**. 
 

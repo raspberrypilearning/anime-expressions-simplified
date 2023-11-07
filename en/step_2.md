@@ -69,7 +69,7 @@ Underneath the comment, find the `<header>` and `</header>` tags. Everything you
 
 Add `<h1></h1>` **tags** inside your `<header></header>` tags.
 
-A `<h1>` tag is used to say that this content is the largest header on the page. 
+A `<h1>` tag is used to say that this content is the largest heading on the page. 
 
 --- code ---
 ---
@@ -135,6 +135,6 @@ The output will appear on the right:
 
 ![The Run icon highlighted with 'Draw anime with me' showing in the output area. ](images/run_h1.png) 
 
-You will see that basic styling has been applied to the text because it is inside `<h1>` tags. The header text is bold and large. 
+You will see that basic styling has been applied to the text because it is inside `<h1>` tags. The heading text is bold and large. 
 
 --- /task ---

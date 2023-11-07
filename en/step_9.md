@@ -28,7 +28,7 @@ line_highlights: 40
 ---
     <!-- The first drawing and instructions go here -->
     <section class="wrap">
-      <img src="love.png" alt="The love facial expression.">
+      <img src="love.png" alt="A line drawing of a smiling character with hearts for eyes.">
       <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
     </section>
 
@@ -36,7 +36,7 @@ line_highlights: 40
 
 --- /task ---
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style file creates a dashed border. 
+You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style.css file creates a dashed border. 
 
 --- task ---
 

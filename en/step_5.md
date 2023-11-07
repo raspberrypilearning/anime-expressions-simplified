@@ -40,7 +40,7 @@ line_highlights: 40-42
 
 Your starter project contains images to use in this project. 
 
-Add an image called `love.png` to your webpage.
+Add the image called `love.png` to your webpage.
 
 --- task ---
 Inside your new section, add an `<img>` tag to display an image. The `src` **attribute** gives the name of the image.
@@ -76,7 +76,7 @@ The `love.png` image appears on your webpage.
 
 Add the `alt` attribute to provide alternative text for people who cannot view the image. 
 
-You can copy the description of your image and paste it into your code: `The love facial expression.`
+You can copy the description of your image and paste it into your code: `A line drawing of a smiling character with hearts for eyes.`
 
 --- collapse ---
 
@@ -98,7 +98,7 @@ line_highlights: 41
 ---   
       <!-- The first drawing and instructions go here -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="A line drawing of a smiling character with hearts for eyes.">
       </section> 
 
 --- /code ---
@@ -109,7 +109,7 @@ line_highlights: 41
 
 Add a paragraph of text in `<p></p>` tags to describe how to draw the love anime facial expression. 
 
-You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>`
+You can copy the paragraph and paste it into your code: `<p>To make your anime character look like they are in love, replace the eyes with rounded hearts. You can add three more hearts inside for a fun effect.</p>`
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ line_highlights: 42
 ---   
       <!-- The first drawing and instructions go here -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="A line drawing of a smiling character with hearts for eyes.">
         <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
       </section> 
 
@@ -145,7 +145,7 @@ line_highlights: 42
 ---   
       <!-- The first drawing and instructions go here -->     
       <section>
-        <img src="love.png" alt="The love facial expression.">
+        <img src="love.png" alt="A line drawing of a smiling character with hearts for eyes.">
         <p>To make your anime character look like they are in <strong>love</strong>, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
       </section> 
 

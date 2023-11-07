@@ -1,8 +1,8 @@
-## Start your web page
+## Add a heading to your web page
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a header to your anime webpage.
+In this step, you will add a heading to your anime webpage.
 
 </div>
 <div>
@@ -61,7 +61,7 @@ Click on the ▸ triangle to expand the code.
 
 --- task ---
 
-Underneath the comment, find the `<header>` and `</header>` tags. Everything you add here appears in your webpage header and is styled as a header.
+Underneath the comment, find the `<header>` and `</header>` tags.
 
 --- /task ---
 

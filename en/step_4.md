@@ -1,4 +1,4 @@
-## Add more content to your first section
+## Add paragraph text
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -71,8 +71,6 @@ line_highlights: 37
 The text appears under the subheading and uses the default paragraph styling. 
 
 Well done! Your page now has a header, a subheading, and an introductory paragraph. 
-
-![alt=""](images/step2-output.PNG)
 
 --- /task ---
 

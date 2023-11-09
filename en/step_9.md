@@ -11,7 +11,7 @@ This step shows you how to add classes to style an image on your page.
 </div>
 </div>
 
-You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style.css file creates a dashed border. 
+You can add coloured borders in different styles to HTML elements. The `dashed-border` class in the style.css file creates a dashed border. 
 
 --- task ---
 

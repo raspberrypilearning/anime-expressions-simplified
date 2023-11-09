@@ -51,5 +51,3 @@ title: Completed project
 You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-complete-simplified){:target="_blank"}.
 
 --- /collapse ---
-
---- save ---

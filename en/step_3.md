@@ -3,7 +3,6 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 You will now add some text to your web page.
-On your webpage, the main content is broken down into **sections**.
 </div>
 <div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-3-simplified" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -12,7 +11,7 @@ On your webpage, the main content is broken down into **sections**.
 
 
 
-Place main content between the `<main>` tags.  
+On your webpage, the main content is broken down into **sections**.
 
 --- task ---
 

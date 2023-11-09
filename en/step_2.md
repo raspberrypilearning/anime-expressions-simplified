@@ -138,3 +138,28 @@ The output will appear on the right:
 You will see that basic styling has been applied to the text because it is inside `<h1>` tags. The heading text is bold and large. 
 
 --- /task ---
+
+## Save your project
+
+Your project is saved automatically. Return to the starter link in the same web browser to see your changes. 
+
+--- collapse ---
+
+---
+title: I accidentally closed my project
+---
+
+Click on the [starter project](https://staging-editor.raspberrypi.org/en/projects/anime-expressions-starter){:target="_blank"} link to open your project. Use the same web browser to see your changes.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: If you have a Code Editor account
+---
+
+Click the 'Save' button to create a copy of the project in your Raspberry Pi account.
+
+--- /collapse ---
+

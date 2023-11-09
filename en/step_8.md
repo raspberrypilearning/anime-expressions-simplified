@@ -21,13 +21,15 @@ If you want to apply styling to specific elements, you can create a **class** in
   
 The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
 
+Here is an example of a CSS class used in another project:
+
 --- code ---
 ---
 language: html
-filename: index.html
+filename: style.css
 line_numbers: true
-line_number_start: 27
-line_highlights: 29
+line_number_start: 205
+line_highlights: 210
 ---
 
 .hugefont {

@@ -17,6 +17,7 @@ steps:
   - title: Style your page
   - title: Edit your style sheet
   - title: Style with classes
+  - title: Style an image
   - title: Make your page responsive
   - title: Colours and fonts
     completion: internal

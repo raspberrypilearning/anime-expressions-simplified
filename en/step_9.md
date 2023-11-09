@@ -1,40 +1,15 @@
-## Make your page responsive
+## Style an image
 
-CSS can be used to make your web page responsive when viewed on different devices.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
---- collapse ---
+This step shows you how to add classes to style an image on your page.
 
----
-title: What does responsive mean?
----
-
-web pages can be viewed on many different devices and should be **responsive** to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
-
---- /collapse ---
-
---- task ---
-
-Find the **second** `<section>`. 
-
-Add `class="wrap"` to the `<section>` tag.
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 39
-line_highlights: 40
----
-    <!-- The first drawing and instructions go here -->
-    <section class="wrap">
-      <img src="love.png" alt="A line drawing of a smiling character with hearts for eyes.">
-      <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
-    </section>
-
---- /code ---
-
---- /task ---
+</div>
+<div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-9-simplified" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
+</div>
 
 You can also add coloured borders in different styles to HTML elements. The `dashed-border` class in the style.css file creates a dashed border. 
 
@@ -51,7 +26,7 @@ line_number_start: 39
 line_highlights: 41
 ---
     <!-- The first drawing and instructions go here -->
-    <section class="wrap">
+    <section>
       <img class="dashed-border" src="love.png" alt="The love facial expression.">
       <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
     </section>
@@ -75,7 +50,7 @@ line_number_start: 39
 line_highlights: 41
 ---
     <!-- The first drawing and instructions go here -->
-    <section class="wrap">
+    <section>
       <img class="dashed-border rounded" src="love.png" alt="The love facial expression.">
       <p>To make your anime character look like they are in love, replace the eyes with two rounded hearts. You can add three more hearts inside for a fun effect.</p>
     </section>
@@ -88,12 +63,6 @@ line_highlights: 41
 
 **Test:** Click the **Run** button. 
 
-Drag the bar between the text editor and your web page to make the web page narrower. 
-
-The text should move below the image. This is the layout for users who view the web page on a mobile phone. 
-
-Drag the bar back after you test it, so you can see the image and text side-by-side. 
-
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the web page adjusts for smaller screens.](images/drag-window.gif)
+You should see the changes from adding the classes to your web page.
 
 --- /task ---

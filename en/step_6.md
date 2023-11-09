@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-This step shows you how to use CSS to change the colours, fonts, and layout on your webpage.   
+This step shows you how to use CSS to change the colours, fonts, and layout on your web page.   
   
 </div>
 <div>
@@ -12,7 +12,7 @@ This step shows you how to use CSS to change the colours, fonts, and layout on y
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your webpage should look, which includes the positioning, colours, and fonts. We call this the style.
+<span style="color: #0faeb0">**Cascading Style Sheets (CSS)**</span> is the language that you use to tell the web browser exactly how your web page should look, which includes the positioning, colours, and fonts. We call this the style.
 </p>
 
 Every **rule** in CSS is made up of two parts: the **selector** and the **declaration**.
@@ -90,13 +90,6 @@ line_highlights: 23-24
   </head>
 
 --- /code ---
---- /task ---
-
---- task ---
-
-**Test:** Click the **Run** button. 
-
-Take a look at your webpage in the right-hand pane. Notice that the styles and layout of your output has now changed. 
 
 --- collapse ---
 
@@ -108,5 +101,13 @@ title: Quick tips
 + HTML elements have default browser styles that you have seen as you have written your HTML code. 
 
 --- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. 
+
+Take a look at your web page in the right-hand pane. Notice that the styles and layout of your output has now changed. 
 
 --- /task ---

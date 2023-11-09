@@ -2,7 +2,7 @@
 
 You can make changes to your style sheet to style your content.
 
-The CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your webpage.
+The CSS file contains all of the CSS for your project. You will find out about some key parts of this CSS file as you create your web page.
 
 When you add CSS styling to an **element**, it applies that styling to every single element on the page that has the same tag. 
 
@@ -64,7 +64,7 @@ h2 {
 
 **Test:** Click the **Run** button. 
 
-Look at your webpage and make sure the 'Facial expressions' text is centred. 
+Look at your web page and make sure the 'Facial expressions' text is centred. 
 
 **Debug:** Check the spelling of the word `center`. HTML & CSS use American (US) English spelling. 
 

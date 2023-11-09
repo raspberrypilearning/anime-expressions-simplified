@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-If your webpage is **responsive**, this means:
+If your web page is **responsive**, this means:
 
 --- choices ---
 

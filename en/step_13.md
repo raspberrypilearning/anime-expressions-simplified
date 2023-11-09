@@ -15,7 +15,7 @@ If you are following the [Intro to web](https://projects.raspberrypi.org/en/path
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Watch the animations on this webpage. How often do they repeat? Can you spot a list, quote, and link?
+Watch the animations on this web page. How often do they repeat? Can you spot a list, quote, and link?
 
 </div>
 <div>

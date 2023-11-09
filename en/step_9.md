@@ -1,6 +1,6 @@
 ## Make your page responsive
 
-CSS can be used to make your webpage responsive when viewed on different devices.
+CSS can be used to make your web page responsive when viewed on different devices.
 
 --- collapse ---
 
@@ -8,7 +8,7 @@ CSS can be used to make your webpage responsive when viewed on different devices
 title: What does responsive mean?
 ---
 
-Webpages can be viewed on many different devices and should be **responsive** to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+web pages can be viewed on many different devices and should be **responsive** to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
 
 --- /collapse ---
 
@@ -88,12 +88,12 @@ line_highlights: 41
 
 **Test:** Click the **Run** button. 
 
-Drag the bar between the text editor and your webpage to make the webpage narrower. 
+Drag the bar between the text editor and your web page to make the web page narrower. 
 
-The text should move below the image. This is the layout for users who view the webpage on a mobile phone. 
+The text should move below the image. This is the layout for users who view the web page on a mobile phone. 
 
 Drag the bar back after you test it, so you can see the image and text side-by-side. 
 
-![In the Editor, the vertical space between the two panes is dragged from left to right to show that the webpage adjusts for smaller screens.](images/drag-window.gif)
+![In the Editor, the vertical space between the two panes is dragged from left to right to show that the web page adjusts for smaller screens.](images/drag-window.gif)
 
 --- /task ---

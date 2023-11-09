@@ -34,7 +34,7 @@ You can also change:
 
 + The colours in the colour palette CSS file. **Tip:** You can find [new hex colours](https://rpf.io/colours){:target="_blank"} to use. 
 
-+ Your webpage to use colour names, such as 'teal' and 'coral'.
++ Your web page to use colour names, such as 'teal' and 'coral'.
 
 + The size of the fonts used. `1rem` is the normal font size. `3rem` is three times as big. 
 

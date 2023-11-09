@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, add the first drawing and instruction to your webpage.
+In this step, add the first drawing and instruction to your web page.
 </div>
 <div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-5-simplified" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
@@ -40,7 +40,7 @@ line_highlights: 40-42
 
 Your starter project contains images to use in this project. 
 
-Add the image called `love.png` to your webpage.
+Add the image called `love.png` to your web page.
 
 --- task ---
 Inside your new section, add an `<img>` tag to display an image. The `src` **attribute** gives the name of the image.
@@ -68,7 +68,7 @@ line_highlights: 41
 
 **Test:** Click the **Run** button. 
 
-The `love.png` image appears on your webpage.
+The `love.png` image appears on your web page.
 
 --- /task ---
 
@@ -84,7 +84,7 @@ You can copy the description of your image and paste it into your code: `A line 
 title: What is alt text?
 ---
 
-**Alternative (Alt) text** is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text does not appear on the webpage but it is read aloud by screen readers.
+**Alternative (Alt) text** is a description of an image and is important in accessible web design to describe images to people who are unable to see them. The text does not appear on the web page but it is read aloud by screen readers.
 
 --- /collapse ---
 

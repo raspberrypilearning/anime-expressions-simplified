@@ -22,7 +22,7 @@ Underneath your `<h2>` heading code, add the paragraph `<p>` tags.
   line_number_start: 33
   line_highlights: 37
   ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>
@@ -52,7 +52,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 37
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>

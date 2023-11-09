@@ -11,7 +11,7 @@ You will now add some text to your web page.
 
 
 
-On your webpage, the main content is broken down into **sections**.
+On your web page, the main content is broken down into **sections**.
 
 --- task ---
 
@@ -25,7 +25,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 35-37
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
 
@@ -39,7 +39,7 @@ line_highlights: 35-37
 ---
 title: Tip on adding more tags to a section
 ---
-As you build your webpage, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines. 
+As you build your web page, you will add other tags inside your section. Position your cursor between the `<section>` and `</section>` tag, then press Enter on your keyboard to split the tags across multiple lines. 
 
 --- /collapse ---
 
@@ -57,7 +57,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 36
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
         <h2></h2>
@@ -81,7 +81,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 36
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main>
       <section>
         <h2>Facial expressions</h2>
@@ -96,7 +96,7 @@ line_highlights: 36
 
 **Test:** Click the **Run** button. 
 
-The text on your webpage should be slightly smaller than the big heading above with bold styling. 
+The text on your web page should be slightly smaller than the big heading above with bold styling. 
 
 This is because `<h2>` is a smaller heading than `<h1>`.
 

@@ -11,7 +11,7 @@ In this step, you can try out different colour palette and font choices.
 </div>
 </div>
 
-In CSS, you can use **variables** to create a colour palette for your webpage. 
+In CSS, you can use **variables** to create a colour palette for your web page. 
 
 CSS variables start with two dashes: `--primary`. 
 
@@ -79,7 +79,7 @@ You can also use variables for fonts. The `--header-font` is set to `3rem 'Fredo
 
 --- task ---
 
-**Find** the variables that set the fonts for your webpage.
+**Find** the variables that set the fonts for your web page.
 
 --- code ---
 ---
@@ -167,7 +167,7 @@ line_highlights: 24
 
 **Test:** Click the **Run** button. 
 
-Make sure your webpage now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
+Make sure your web page now uses the brighter colours and different fonts, as defined in the `vivid.css` file.
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/anime-expressions-step-9-simplified" width="500" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 

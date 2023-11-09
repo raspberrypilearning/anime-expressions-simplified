@@ -21,6 +21,24 @@ If you want to apply styling to specific elements, you can create a **class** in
   
 The class styling overrides any element styling that has already been applied. Notice that the changes take place as you add the classes to your code.
 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 27
+line_highlights: 29
+---
+
+.hugefont {
+  /* Used to make a large emoji */
+  font-size: 6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+--- /code ---
+
 --- /collapse ---
 
 --- task ---
@@ -63,7 +81,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-    <!-- Webpage footer -->
+    <!-- web page footer -->
     <footer class="border-top">
 
 --- /code ---
@@ -86,7 +104,7 @@ line_numbers: true
 line_number_start: 55
 line_highlights: 56
 ---
-    <!-- Webpage footer -->
+    <!-- web page footer -->
     <footer class="border-top secondary">
 
 --- /code ---
@@ -105,7 +123,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 34
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main class="primary">
 
 --- /code ---
@@ -147,7 +165,7 @@ line_numbers: true
 line_number_start: 33
 line_highlights: 35, 37
 ---
-    <!-- The main content for the webpage goes between the main tags -->
+    <!-- The main content for the web page goes between the main tags -->
     <main class="primary">
       <section class="tertiary">
         <h2>Facial expressions</h2>
@@ -162,6 +180,6 @@ line_highlights: 35, 37
 
 **Test:** Click the **Run** button. 
 
-You should see the changes from adding the classes to your webpage.
+You should see the changes from adding the classes to your web page.
 
 --- /task ---

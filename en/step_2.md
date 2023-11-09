@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will add a heading to your anime webpage.
+In this step, you will add a heading to your anime web page.
 
 </div>
 <div>
@@ -39,7 +39,7 @@ Click on the small triangle next to line 3 to collapse the `<head>`.
 
 ### Add a heading
 
-Typically, a webpage has three parts. A **header**, the **main** content, and a **footer**. 
+Typically, a web page has three parts. A **header**, the **main** content, and a **footer**. 
 
 --- task ---
 
@@ -51,7 +51,7 @@ Typically, a webpage has three parts. A **header**, the **main** content, and a 
 title: I can't find the comment
 ---
 
-Have you accidentally collapsed the `<body>` or another section of your webpage? 
+Have you accidentally collapsed the `<body>` or another section of your web page? 
 
 Click on the ▸ triangle to expand the code.
 
